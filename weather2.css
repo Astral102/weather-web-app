@@ -1,0 +1,127 @@
+body {
+    background-image: url(images/cloudssss.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    font-style: italic;
+    overscroll-behavior: none;
+  }
+
+.card {
+    width: 350px;
+    height: 500px;
+    border-radius: 10px;
+    transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    margin: auto ;
+    padding: 50px;
+    margin-top: 50px;
+   }
+   
+
+
+.search-bar{
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 10px;
+    background-color: #ededef;
+}
+
+.content{
+    text-align: center;
+}
+
+.weather-icon{
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 30%;
+   margin-top: 30px;
+}
+
+.status, h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 40px;
+    font-size: 80px;
+    line-height: 1px;
+    
+}
+
+p{
+    font-size: 20px;
+}
+
+hr{
+    width: 250px;
+}
+
+.calender{
+    text-align: center;
+    line-height: 20px;
+}
+
+.section1{
+    background-color: black;
+    opacity: 0.5;
+    width: 90%;
+    max-width: 470px; 
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+
+#date, #time{
+    font-size: 28px;
+    line-height: 50px;
+}
+
+.search {
+    width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     }
+
+     .search input {
+        border: 0;
+        outline: 0;
+        background: #ebfffc;
+        color: #555;
+        padding: 10px 25px;
+        height: 60px;
+        border-radius: 30px;
+        flex: 1;
+        margin-right: 16px;
+        font-size: 18px;
+        }
+
+        .search button {
+            border: 0;
+            outline: 0;
+            background: #ebfffc;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            cursor: pointer;
+            }
+.search button img{
+                width: 16px;
+}
+
+.city{
+    font-size: 28px;
+}
+
+.footer{
+    padding: 25px;
+    text-align: center;
+}
+
